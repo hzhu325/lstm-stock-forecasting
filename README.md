@@ -81,11 +81,12 @@ split for hyperparameter tuning.
 
 ## Acknowledgements and Development Notes
 
-This project was written with the help of AI-assisted coding. The dataset
-choice, the 60-day window, the train/test discipline (no look-ahead), the
-model comparison and the switch from recursive to rolling-window forecasting
-were design decisions I made and worked through; the code was produced by
-iterative prompting, manual review and integration testing on my side.
+I designed and led this project during my BONC internship, including the
+dataset choice, the 60-day sliding window, the no-look-ahead train/test
+discipline, the baseline-vs-regularised model comparison, and the
+methodological correction from recursive to rolling-window forecasting.
+AI coding assistants were used during implementation; the design,
+debugging and evaluation work was mine.
 
 `project_report.md` is the most honest description of what worked, what did
 not, and what I learned during the project — including the methodological
